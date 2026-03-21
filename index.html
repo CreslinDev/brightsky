@@ -23,6 +23,50 @@ button:hover{opacity:0.9;}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}
 .card{border:1px solid #eee;border-radius:10px;padding:30px;background:#fff}
 .price{font-size:34px;color:#1e4f8a;margin:10px 0}
+.trust{
+  background:#f7f9fc;
+  text-align:center;
+  padding:90px 20px;
+}
+
+.badges{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:40px;
+  flex-wrap:wrap;
+  margin-top:30px;
+}
+
+.badge-card{
+  background:#ffffff;
+  padding:20px 30px;
+  border-radius:10px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.05);
+}
+
+.badge-card img{
+  height:60px;
+  display:block;
+}
+.testimonial-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:25px;
+}
+
+.testimonial{
+  background:#ffffff;
+  padding:25px;
+  border-radius:10px;
+  border:1px solid #eee;
+  box-shadow:0 4px 12px rgba(0,0,0,0.03);
+}
+
+.testimonial p{
+  font-style:italic;
+  margin-bottom:15px;
+}
 ul{padding-left:20px}
 .process{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:30px;text-align:center}
 .process div{padding:20px}
@@ -156,9 +200,9 @@ footer{text-align:center;padding:30px;color:#777;font-size:14px}
 </div>
 
 <div class="badges">
-<img src="intuitPA2.png" alt="QuickBooks ProAdvisor Badge">
-<img src="intuitTax1.png" alt="QuickBooks Tax Advisor Badge">
-<img src="XeroL2.png" alt="Xero Professional Badge">
+<div class="badge-card"></div><img src="intuitPA2.png" alt="QuickBooks ProAdvisor Badge"></div>
+<div class="badge-card"></div><img src="intuitTax1.png" alt="QuickBooks Tax Advisor Badge"></div>
+<div class="badge-card"></div><img src="XeroL2.png" alt="Xero Professional Badge"></div>
 </div>
 
 </div>
@@ -184,9 +228,18 @@ footer{text-align:center;padding:30px;color:#777;font-size:14px}
 </div>
 
 <div class="testimonial-grid">
-<div class="testimonial"><p>"BrightSky Bookkeeping completely cleaned up our books and now we finally understand our financial reports."</p><strong>Small Business Owner</strong></div>
-<div class="testimonial"><p>"Professional, reliable, and extremely helpful. Tax season was so much easier this year."</p><strong>Freelancer</strong></div>
-<div class="testimonial"><p>"Joseph and BrightSky Books helped us get our finances organized so we could focus on growing our company."</p><strong>Service Business Owner</strong></div>
+    <div class="testimonial">
+    <p>"BrightSky cleaned up over a year of messy books and gave us clear monthly reports. For the first time, I actually understand where our money is going."</p>
+    <strong>— Sarah M</strong>
+    </div>
+    <div class="testimonial">
+    <p>"I used to stress every month trying to keep up with bookkeeping. Now everything is organized, reconciled, and ready for my CPA. Huge relief."</p>
+    <strong>— David R</strong>
+    </div>
+    <div class="testimonial">
+    <p>"The monthly reports have been a game changer. I can finally see what’s profitable and make better decisions for my business."</p>
+    <strong>— Lisa T</strong>
+    </div>
 </div>
 
 </div>
