@@ -8,7 +8,7 @@
 body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#333;line-height:1.6}
 header{background:#ffffff;border-bottom:1px solid #eee;position:sticky;top:0}
 .nav{max-width:1150px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:4px}
-.nav img{height:12px}
+.nav img{height:50px}
 .nav a{margin-left:20px;text-decoration:none;color:#1e4f8a;font-weight:600}
 .hero{background:linear-gradient(180deg,#eaf3ff,#ffffff);padding:80px 20px;text-align:center}
 .hero h1{font-size:40px;margin-bottom:10px;color:#1e4f8a}
@@ -32,7 +32,7 @@ footer{text-align:center;padding:30px;color:#777;font-size:14px}
 
 <header>
 <div class="nav">
-<img src="logo.png" alt="BrightSky Bookkeeping Logo" width="8%">
+<img src="logo.png" alt="BrightSky Bookkeeping Logo">
 <div>
 <a href="#services">Services</a>
 <a href="#process">Process</a>
@@ -119,12 +119,12 @@ footer{text-align:center;padding:30px;color:#777;font-size:14px}
 </div>
 
 <div>
-<h3>2. Setup</h3>
+<h3>2. Secure Setup</h3>
 <p>We connect your accounts and organize your bookkeeping system.</p>
 </div>
 
 <div>
-<h3>3. Cleanup</h3>
+<h3>3. Catch-Up</h3>
 <p>If your books are behind, we bring everything up to date.</p>
 </div>
 
@@ -137,15 +137,97 @@ footer{text-align:center;padding:30px;color:#777;font-size:14px}
 </div>
 </section>
 
+<section class="trust">
+<div class="section-title">
+<h2>Trusted Bookkeeping Expertise</h2>
+<p>BrightSky Bookkeeping uses industry-leading tools and best practices.</p>
+</div>
+
+<div class="badges">
+<img src="proadvisor-badge.png" alt="QuickBooks ProAdvisor Badge">
+</div>
+
+</div>
+</section>
+
+<section class="local-seo">
+<div class="container">
+<div class="section-title">
+<h2>Bookkeeping Services for Los Angeles Small Businesses</h2>
+</div>
+
+<p>BrightSky Bookkeeping proudly supports freelancers, contractors, and small businesses throughout Los Angeles. Our goal is to provide reliable monthly bookkeeping that keeps your financial records organized and your business ready for tax season.</p>
+
+<p>Whether you are just starting your business or managing a growing company, having accurate financial records helps you make better decisions and stay compliant with tax requirements.</p>
+
+</div>
+</section>
+
+<section class="testimonials">
+<div class="container">
+<div class="section-title">
+<h2>What Clients Say</h2>
+</div>
+
+<div class="testimonial-grid">
+<div class="testimonial"><p>"BrightSky Bookkeeping completely cleaned up our books and now we finally understand our financial reports."</p><strong>Small Business Owner</strong></div>
+<div class="testimonial"><p>"Professional, reliable, and extremely helpful. Tax season was so much easier this year."</p><strong>Freelancer</strong></div>
+<div class="testimonial"><p>"Joseph and BrightSky Books helped us get our finances organized so we could focus on growing our company."</p><strong>Service Business Owner</strong></div>
+</div>
+
+</div>
+</section>
+
+<section class="health">
+<div class="container">
+<h2>Free Bookkeeping Health Check</h2>
+<p>Not sure if your books are set up correctly? Request a free bookkeeping health check. We'll review your current setup and identify any issues, missing reconciliations, or opportunities to improve your financial reporting.</p>
+<a class="btn" href="#contact">Request Your Free Review</a>
+</div>
+</section>
+
 <section id="contact" class="contact">
 <div class="container">
-<h2>Contact BrightSky Bookkeeping</h2>
-<p>Schedule a free consultation to learn how we can simplify your bookkeeping.</p>
+<h2>Schedule Your Free Consultation</h2>
+<p>Send us a message or book a time directly on our calendar.</p>
 
-<p><strong>Email:</strong> Support@brightskybooks.com</p>
-<p><strong>Phone:</strong> (407) 452-7519</p>
+<form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="#" method="POST">
+<input type="hidden" name="form-name" value="contact">
+<p hidden>
+<label>Don't fill this out if you're human: <input name="bot-field"></label>
+</p>
 
-<a class="btn" href="mailto:Support@brightskybooks.com">Request Consultation</a>
+<label>Name</label>
+<input type="text" name="name" required>
+
+<label>Email</label>
+<input type="email" name="email" required>
+
+<label>Business Name</label>
+<input type="text" name="business">
+
+<label>What do you need help with?</label>
+<select name="lead_type">
+  <option value="">Select an option</option>
+  <option>My books are behind</option>
+    <option>I need ongoing monthly bookkeeping</option>
+    <option>I want better financial reports</option>
+    <option>I’m just exploring options</option>
+</select>
+
+<label>How can we help?</label>
+<textarea name="message" rows="4"></textarea>
+
+<button type="submit">Send Message</button>
+</form>
+
+<div class="calendar">
+<h3>Prefer to book a time now?</h3>
+<a class="btn" href="https://calendly.com/YOURCALENDLY" target="_blank">Book a Call</a>
+</div>
+
+<p>Email: Support@brightskybooks.com<br>
+Phone: (407) 452-7519</p>
 </div>
 </section>
 
